@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="EMI Yang">
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/js.cookie.min.js"></script>
+	<script type="module" src="assets/js/index.js"></script>
+	<title>BP low-code shortcut editor for Liquipedia HoK Wiki</title>
+</head>
+
+<body>
+	<div id="container">
+		<div id="content">
+			<div id="tool">
+				<label for="ChooseBans"><b>BanNums: </b></label>
+				<select id="ChooseBans">
+					<option value="4">4</option>
+					<option value="5" selected>5</option>
+				</select>
+				<label for="team1side"><b>Team1Side：</b></label>
+				<select id="team1side" name="team1side">
+					<option value="blue">Blue</option>
+					<option value="red">Red</option>
+				</select>
+				<label for="winner"><b>Winner：</b></label>
+				<select id="winner" name="winner">
+					<option value="1">Team1</option>
+					<option value="2">Team2</option>
+				</select>
+				<label for="isUltimateBattle"><b>Ultimate Battle? </b></label>
+				<input type="checkbox" id="isUltimateBattle">
+				<br><br>
+				<label for="length"><b>Length：</b></label>
+				<label for="minutes"></label>
+				<select id="minutes"></select>
+				<label for="seconds"></label>
+				<select id="seconds"></select>
+				<br><br>
+				<div id="inputs-container"></div>
+				<br>
+				<button id="generateButton">Generate & Copy Output</button>
+				<button id="clearCookies">Clear Cookies</button>
+				<pre id="output"></pre>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
