@@ -4,7 +4,7 @@ This Demo implements Liquipedia's *Ban&Picks* formatting output, which reduces t
 
 #### Page Effect
 
-![Main](images\01.png)
+![Main](images/01.png)
 
 #### Output effect
 
