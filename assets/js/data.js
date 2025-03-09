@@ -1,5 +1,5 @@
 export const dataArray = [
-    // Empty
+    // Default null value
     { "value": "", "text": "Null","alias":""},
     // Honor of Kings CN
     { "value": "agudo", "text": "Agudo (阿古朵)","alias":"aguduo"},
@@ -384,10 +384,3 @@ export const dataArray = [
     //Arena of Valor
 
 ]; 
-
-export const groups = [
-    { label: 'Team1Picks：', prefix: 't1h' ,id:"Label1"}, 
-    { label: 'Team2Picks：', prefix: 't2h',id:"Label2" }, 
-    { label: 'Team1Bans：', prefix: 't1b',id:"Label3" }, 
-    { label: 'Team2Bans：', prefix: 't2b',id:"Label4" }
-];

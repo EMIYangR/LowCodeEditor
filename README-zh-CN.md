@@ -1,6 +1,6 @@
 # 适用于Liquipedia HoK Wiki的BP低代码编辑器
 
-本Demo实现了Liquipedia的*Ban&Picks*格式化输出，降低了由于输出错误导致的增加检查成本，并提升了一定的编写效率。
+本Demo实现了***[Liquipedia](https://liquipedia.net/honorofkings/)***的*Ban&Picks*格式化输出，降低了由于输出错误导致的增加检查成本，并提升了一定的编写效率。
 
 #### 页面效果
 
@@ -8,9 +8,9 @@
 
 #### 输出效果
 
-##### 5Ban5Pick
+##### 4禁用 & 5选择
 
-```yaml
+``` yaml
         |team1side=blue|team2side=red|length=00:00|winner=1
         <!-- Hero picks -->
         |t1h1=|t1h2=|t1h3=|t1h4=|t1h5=
@@ -20,9 +20,9 @@
         |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
 ```
 
-##### 4Ban5Pick
+##### 5禁用 & 5选择
 
-```yaml
+``` yaml
         |team1side=blue|team2side=red|length=00:00|winner=1
         <!-- Hero picks -->
         |t1h1=|t1h2=|t1h3=|t1h4=|t1h5=
@@ -34,11 +34,27 @@
 
 ##### 巅峰对决
 
-```yaml
+``` yaml
         |team1side=blue|team2side=red|length=00:00|winner=1
         <!-- Hero picks -->
         |t1h1=|t1h2=|t1h3=|t1h4=|t1h5=
         |t2h1=|t2h2=|t2h3=|t2h4=|t2h5=
+```
+
+##### 4禁用
+
+```yaml
+        <!-- Hero bans -->
+        |t1b1=|t1b2=|t1b3=|t1b4=
+        |t2b1=|t2b2=|t2b3=|t2b4=
+```
+
+##### 5禁用
+
+```yaml
+        <!-- Hero bans -->
+        |t1b1=|t1b2=|t1b3=|t1b4=|t1b5=
+        |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
 ```
 
 #### 使用帮助
@@ -49,9 +65,9 @@ BP输入框支持提示词，本Demo支持了***Honor of Kings（包括国际服
 | ----- | ------------ |
 | vulue | 最终的输出值 |
 | text  | 提示词       |
-| alias | 别名         |
+| alias | 自定义的别名 |
 
-您同样可以替换其他游戏的对应关系，或许您可以直接询问大语言模型将目标输出为对应格式获取。
+您同样可以替换其他游戏的对应关系，或许您可以直接询问[大语言模型](https://ai.com/)将目标输出为对应格式获取。
 
 ```javascript
 export const dataArray = [
@@ -63,7 +79,7 @@ export const dataArray = [
 }
 ```
 
-如果您计划在本地运行，推荐使用VS Code的***Live Server***插件部署此Demo，带来的诸多不便敬请谅解。
+如果您计划在本地运行，推荐使用***VS Code***的***Live Server***插件部署此Demo，带来的诸多不便敬请谅解。
 
 #### 最后
 

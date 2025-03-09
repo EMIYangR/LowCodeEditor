@@ -1,6 +1,6 @@
 # Low-Code Editor
 
-This Demo implements Liquipedia's *Ban&Picks* formatting output, which reduces the increased inspection cost caused by output errors and improves certain writing efficiency.
+This Demo implements [***Liquipedia***](https://liquipedia.net/honorofkings/)'s *Ban&Picks* formatting output, which reduces the increased inspection cost caused by output errors and improves certain writing efficiency.
 
 #### Page Effect
 
@@ -8,7 +8,7 @@ This Demo implements Liquipedia's *Ban&Picks* formatting output, which reduces t
 
 #### Output effect
 
-##### 5Ban5Pick
+##### 5Ban & 5Pick
 
 ``` yaml
         |team1side=blue|team2side=red|length=00:00|winner=1
@@ -20,9 +20,7 @@ This Demo implements Liquipedia's *Ban&Picks* formatting output, which reduces t
         |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
 ```
 
-
-
-##### 4Ban5Pick
+##### 4Ban & 5Pick
 
 ``` yaml
         |team1side=blue|team2side=red|length=00:00|winner=1
@@ -34,9 +32,7 @@ This Demo implements Liquipedia's *Ban&Picks* formatting output, which reduces t
         |t2b1=|t2b2=|t2b3=|t2b4=
 ```
 
-
-
-##### Peak duel
+##### Ultimate Battle
 
 ``` yaml
         |team1side=blue|team2side=red|length=00:00|winner=1
@@ -45,7 +41,21 @@ This Demo implements Liquipedia's *Ban&Picks* formatting output, which reduces t
         |t2h1=|t2h2=|t2h3=|t2h4=|t2h5=
 ```
 
+##### Only Need 4Bans
 
+```yaml
+        <!-- Hero bans -->
+        |t1b1=|t1b2=|t1b3=|t1b4=
+        |t2b1=|t2b2=|t2b3=|t2b4=
+```
+
+##### Only Need 5Bans
+
+```yaml
+        <!-- Hero bans -->
+        |t1b1=|t1b2=|t1b3=|t1b4=|t1b5=
+        |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
+```
 
 #### Using Help
 
