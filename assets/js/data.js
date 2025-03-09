@@ -380,7 +380,11 @@ export const dataArray = [
     { "value": "butterfly", "text": "Butterfly (刀锋宝贝)","alias":"daofeng baobei"},
     { "value": "butterfly", "text": "Butterfly (刀锋宝贝)","alias":"daofeng"},
     { "value": "luara", "text": "Luara (卢雅娜)","alias":"luara"},
-    { "value": "ata", "text": "Ata (阿塔)","alias":"ata"}
-    //Arena of Valor
+    { "value": "ata", "text": "Ata (阿塔)","alias":"ata"},
+    // Arena of Valor
 
+    // Remove Hero
+    { "value": "genghis khan", "text": "Genghis Khan (成吉思汗)","alias":"genghis"},
+    { "value": "genghis khan", "text": "Genghis Khan (成吉思汗)","alias":"khan"},
+    { "value": "genghis khan", "text": "Genghis Khan (成吉思汗)","alias":"genghis khan"}
 ]; 
