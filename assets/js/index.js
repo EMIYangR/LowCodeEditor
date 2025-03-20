@@ -1,4 +1,5 @@
-import{dataArray}from './data.js';
+// import{dataArray}from './data.js';
+import{dataArray}from 'https://cdn.jsdelivr.net/gh/EMIYangR/CDN/js/data.js';
 const groups = [{label: 'Team1Picks：',prefix: 't1h',id: "Label1"},{label: 'Team2Picks：',prefix: 't2h',id: "Label2"},{label: 'Team1Bans：',prefix: 't1b',id: "Label3"},{label: 'Team2Bans：',prefix: 't2b',id: "Label4"}];
 $(document).ready(function(){$('#generateButton').click(function(){generateOutput()});$('#copyButton').click(function(){copyToClipboard()});if(Cookies.get('banNums')){$('#ChooseBans').val(Cookies.get('banNums'))}if(Cookies.get('team1side')){$('#team1side').val(Cookies.get('team1side'))}if(Cookies.get('winner')){$('#winner').val(Cookies.get('winner'))}
     for(let i = 0;i <= 99;i++){$('#minutes').append($('<option>',{value: i.toString().padStart(2,'0'),text: i.toString().padStart(2,'0')}))}
