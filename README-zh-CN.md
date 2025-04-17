@@ -8,9 +8,21 @@
 
 #### 输出效果
 
-##### 4禁用 & 5选择
+##### 标准输出示例
 
-``` yaml
+``` javascript
+        |team1side=blue|team2side=red|length=99:59|winner=1
+        <!-- Hero picks -->
+        |t1h1=agudo|t1h2=agudo|t1h3=agudo|t1h4=agudo|t1h5=agudo
+        |t2h1=agudo|t2h2=agudo|t2h3=agudo|t2h4=agudo|t2h5=agudo
+        <!-- Hero bans -->
+        |t1b1=agudo|t1b2=agudo|t1b3=agudo|t1b4=agudo|t1b5=agudo
+        |t2b1=agudo|t2b2=agudo|t2b3=agudo|t2b4=agudo|t2b5=agudo
+```
+
+##### 5个禁用
+
+``` javascript
         |team1side=blue|team2side=red|length=00:00|winner=1
         <!-- Hero picks -->
         |t1h1=|t1h2=|t1h3=|t1h4=|t1h5=
@@ -20,9 +32,9 @@
         |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
 ```
 
-##### 5禁用 & 5选择
+##### 4个禁用
 
-``` yaml
+``` javascript
         |team1side=blue|team2side=red|length=00:00|winner=1
         <!-- Hero picks -->
         |t1h1=|t1h2=|t1h3=|t1h4=|t1h5=
@@ -34,24 +46,55 @@
 
 ##### 巅峰对决
 
-``` yaml
+``` javascript
         |team1side=blue|team2side=red|length=00:00|winner=1
         <!-- Hero picks -->
         |t1h1=|t1h2=|t1h3=|t1h4=|t1h5=
         |t2h1=|t2h2=|t2h3=|t2h4=|t2h5=
 ```
 
-##### 4禁用
+##### 只需要选择
 
-```yaml
+```javascript
+        <!-- Hero picks -->
+        |t1h1=|t1h2=|t1h3=|t1h4=|t1h5=
+        |t2h1=|t2h2=|t2h3=|t2h4=|t2h5=
+```
+
+##### 只需要4个禁用
+
+```javascript
         <!-- Hero bans -->
         |t1b1=|t1b2=|t1b3=|t1b4=
         |t2b1=|t2b2=|t2b3=|t2b4=
 ```
 
-##### 5禁用
+##### 只需要5个禁用
 
-```yaml
+```javascript
+        <!-- Hero bans -->
+        |t1b1=|t1b2=|t1b3=|t1b4=|t1b5=
+        |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
+```
+
+##### 只需要禁用和选择
+
+```javascript
+        <!-- Hero picks -->
+        |t1h1=|t1h2=|t1h3=|t1h4=|t1h5=
+        |t2h1=|t2h2=|t2h3=|t2h4=|t2h5=
+        <!-- Hero bans -->
+        |t1b1=|t1b2=|t1b3=|t1b4=|t1b5=
+        |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
+```
+
+##### 比赛正在进行
+
+```javascript
+        |team1side=blue|team2side=red|length=|winner=
+        <!-- Hero picks -->
+        |t1h1=|t1h2=|t1h3=|t1h4=|t1h5=
+        |t2h1=|t2h2=|t2h3=|t2h4=|t2h5=
         <!-- Hero bans -->
         |t1b1=|t1b2=|t1b3=|t1b4=|t1b5=
         |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
@@ -74,8 +117,8 @@ export const dataArray = [
     // 默认空值
     { "value": "", "text": "Null","alias":""},
     // 输出示例
-    { "value": "agudo", "text": "Agudo (阿古朵)","alias":"aguduo"},
-    { "value": "agudo", "text": "Agudo (阿古朵)","alias":"a gu duo"}
+    { "value": "agudo", "text": "阿古朵","alias":"aguduo"},
+    { "value": "agudo", "text": "阿古朵","alias":"a gu duo"}
 }
 ```
 

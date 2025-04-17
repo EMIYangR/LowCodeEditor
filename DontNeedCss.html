@@ -15,35 +15,57 @@
 	<div id="container">
 		<div id="content">
 			<div id="tool">
-				<label for="ChooseBans"><b>BanNums: </b></label>
-				<select id="ChooseBans">
-					<option value="4">4</option>
-					<option value="5" selected>5</option>
-				</select>
-				<label for="team1side"><b>Team1Side：</b></label>
-				<select id="team1side" name="team1side">
-					<option value="blue">Blue</option>
-					<option value="red">Red</option>
-				</select>
-				<label for="winner"><b>Winner：</b></label>
-				<select id="winner" name="winner">
-					<option value="1">Team1</option>
-					<option value="2">Team2</option>
-				</select>
-				<label for="isUltimateBattle"><b>Ultimate Battle? </b></label>
-				<input type="checkbox" id="isUltimateBattle">
-				<br><br>
-				<label for="length"><b>Length：</b></label>
-				<label for="minutes"></label>
-				<select id="minutes"></select>
-				<label for="seconds"></label>
-				<select id="seconds"></select>
-				<br><br>
+				<div id="titleDiv">
+					<label for="isUltimateBattle"><b>Ultimate Battle? </b></label>
+					<input type="checkbox" id="isUltimateBattle" class=" checkbox1">
+
+					<label for="isOnlyBans"><b>Only Need Bans? </b></label>
+					<input type="checkbox" id="isOnlyBans" class=" checkbox1">
+
+					<label for="isOnlyPicks"><b>Only Need Picks? </b></label>
+					<input type="checkbox" id="isOnlyPicks" class=" checkbox1">
+
+					<label for="isOnlyBanPicks"><b>Only Need Ban & Picks? </b></label>
+					<input type="checkbox" id="isOnlyBanPicks" class=" checkbox1">
+
+					<br><br>
+					<label for="ChooseBans"><b>BanNums: </b></label>
+					<select id="ChooseBans" class="">
+						<option value="4">4</option>
+						<option value="5" selected>5</option>
+					</select>
+
+					<label for="isGameInProgress"><b>Game in Progress? </b></label>
+					<input type="checkbox" id="isGameInProgress" class="checkbox2">
+
+					<br><br>
+					<label for="team1side"><b>Team1Side：</b></label>
+					<select id="team1side" name="team1side" class="">
+						<option value="blue">Blue</option>
+						<option value="red">Red</option>
+					</select>
+
+					<label for="length"><b>Length：</b></label>
+					<label for="minutes"></label>
+					<select id="minutes" class=""></select>
+					:
+					<label for="seconds"></label>
+					<select id="seconds" class=""></select>
+
+					<label for="winner"><b>Winner：</b></label>
+					<select id="winner" name="winner" class="">
+						<option value="1">Team1</option>
+						<option value="2">Team2</option>
+					</select>
+					<br><br>
+				</div>
 				<div id="inputs-container"></div>
 				<br>
-				<button id="generateButton">Generate & Copy Output</button>
-				<button id="clearCookies">Clear Cookies</button>
-				<pre id="output"></pre>
+				<div id="outputDiv">
+					<button id="generateButton" class="">Generate & Copy Output</button>
+					<button id="clearCookies" class="">Clear Cookies</button>
+					<pre id="output" style="display: none;"></pre>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -8,9 +8,21 @@ This Demo implements [***Liquipedia***](https://liquipedia.net/honorofkings/)'s 
 
 #### Output effect
 
+##### Standard Output
+
+``` javascript
+        |team1side=blue|team2side=red|length=99:59|winner=1
+        <!-- Hero picks -->
+        |t1h1=agudo|t1h2=agudo|t1h3=agudo|t1h4=agudo|t1h5=agudo
+        |t2h1=agudo|t2h2=agudo|t2h3=agudo|t2h4=agudo|t2h5=agudo
+        <!-- Hero bans -->
+        |t1b1=agudo|t1b2=agudo|t1b3=agudo|t1b4=agudo|t1b5=agudo
+        |t2b1=agudo|t2b2=agudo|t2b3=agudo|t2b4=agudo|t2b5=agudo
+```
+
 ##### 5Ban & 5Pick
 
-``` yaml
+``` javascript
         |team1side=blue|team2side=red|length=00:00|winner=1
         <!-- Hero picks -->
         |t1h1=|t1h2=|t1h3=|t1h4=|t1h5=
@@ -22,7 +34,7 @@ This Demo implements [***Liquipedia***](https://liquipedia.net/honorofkings/)'s 
 
 ##### 4Ban & 5Pick
 
-``` yaml
+``` javascript
         |team1side=blue|team2side=red|length=00:00|winner=1
         <!-- Hero picks -->
         |t1h1=|t1h2=|t1h3=|t1h4=|t1h5=
@@ -34,8 +46,16 @@ This Demo implements [***Liquipedia***](https://liquipedia.net/honorofkings/)'s 
 
 ##### Ultimate Battle
 
-``` yaml
+``` javascript
         |team1side=blue|team2side=red|length=00:00|winner=1
+        <!-- Hero picks -->
+        |t1h1=|t1h2=|t1h3=|t1h4=|t1h5=
+        |t2h1=|t2h2=|t2h3=|t2h4=|t2h5=
+```
+
+##### Only Need Picks
+
+```javascript
         <!-- Hero picks -->
         |t1h1=|t1h2=|t1h3=|t1h4=|t1h5=
         |t2h1=|t2h2=|t2h3=|t2h4=|t2h5=
@@ -43,7 +63,7 @@ This Demo implements [***Liquipedia***](https://liquipedia.net/honorofkings/)'s 
 
 ##### Only Need 4Bans
 
-```yaml
+```javascript
         <!-- Hero bans -->
         |t1b1=|t1b2=|t1b3=|t1b4=
         |t2b1=|t2b2=|t2b3=|t2b4=
@@ -51,7 +71,30 @@ This Demo implements [***Liquipedia***](https://liquipedia.net/honorofkings/)'s 
 
 ##### Only Need 5Bans
 
-```yaml
+```javascript
+        <!-- Hero bans -->
+        |t1b1=|t1b2=|t1b3=|t1b4=|t1b5=
+        |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
+```
+
+##### Only Need Ban & Picks
+
+```javascript
+        <!-- Hero picks -->
+        |t1h1=|t1h2=|t1h3=|t1h4=|t1h5=
+        |t2h1=|t2h2=|t2h3=|t2h4=|t2h5=
+        <!-- Hero bans -->
+        |t1b1=|t1b2=|t1b3=|t1b4=|t1b5=
+        |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
+```
+
+##### Game in Progress
+
+```javascript
+        |team1side=blue|team2side=red|length=|winner=
+        <!-- Hero picks -->
+        |t1h1=|t1h2=|t1h3=|t1h4=|t1h5=
+        |t2h1=|t2h2=|t2h3=|t2h4=|t2h5=
         <!-- Hero bans -->
         |t1b1=|t1b2=|t1b3=|t1b4=|t1b5=
         |t2b1=|t2b2=|t2b3=|t2b4=|t2b5=
