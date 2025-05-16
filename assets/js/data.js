@@ -1,6 +1,9 @@
 export const dataArray = [
-    // Default null value
+    // Default Null
     { "value": "", "text": "Null","alias":""},
+    // No Ban
+    { "value": "none", "text": "Default","alias":"none"},
+    { "value": "none", "text": "Default","alias":"transparent"},
     // Honor of Kings CN
     { "value": "agudo", "text": "Agudo (阿古朵)","alias":"aguduo"},
     { "value": "agudo", "text": "Agudo (阿古朵)","alias":"a gu duo"},
@@ -55,6 +58,11 @@ export const dataArray = [
     { "value": "child of the primal flow (tank)", "text": "Child Of The Primal Flow (Tank) (元流之子·坦克)","alias":"child of the primal flow (tank)"},
     { "value": "child of the primal flow (tank)", "text": "Child Of The Primal Flow (Tank) (元流之子·坦克)","alias":"child of the primal flow tank"},
     { "value": "child of the primal flow (tank)", "text": "Child Of The Primal Flow (Tank) (元流之子·坦克)","alias":"child tank"},
+    { "value": "child of the primal flow (archer)", "text": "Child Of The Primal Flow (Archer) (元流之子·射手)","alias":"child of the primal flow (archer)"},
+    { "value": "child of the primal flow (archer)", "text": "Child Of The Primal Flow (Archer) (元流之子·射手)","alias":"child of the primal flow (marksman)"},
+    { "value": "child of the primal flow (archer)", "text": "Child Of The Primal Flow (Archer) (元流之子·射手)","alias":"child of the primal flow archer"},
+    { "value": "child of the primal flow (archer)", "text": "Child Of The Primal Flow (Archer) (元流之子·射手)","alias":"child archer"},
+    { "value": "child of the primal flow (archer)", "text": "Child Of The Primal Flow (Archer) (元流之子·射手)","alias":"child mm"},
     { "value": "cirrus", "text": "Cirrus (云中君)","alias":"long feng"},
     { "value": "cirrus", "text": "Cirrus (云中君)","alias":"yun zhongjun"},
     { "value": "cirrus", "text": "Cirrus (云中君)","alias":"yun zhong jun"},
@@ -162,6 +170,7 @@ export const dataArray = [
     { "value": "jing", "text": "Jing (镜)","alias":"jing"},
     { "value": "kaizer", "text": "Kaizer (铠)","alias":"kaizer"},
     { "value": "kaizer", "text": "Kaizer (铠)","alias":"kai"},
+    { "value": "kong kong er", "text": "Kong Kong Er (空空儿)","alias":"kong kong er"},
     { "value": "kongming", "text": "Kongming (诸葛亮)","alias":"zhuge liang"},
     { "value": "kongming", "text": "Kongming (诸葛亮)","alias":"zhuge"},
     { "value": "kongming", "text": "Kongming (诸葛亮)","alias":"zgl"},
@@ -384,7 +393,7 @@ export const dataArray = [
     { "value": "ata", "text": "Ata (阿塔)","alias":"ata"},
     // Arena of Valor
 
-    // Remove Hero
+    // Removed Heroes
     { "value": "genghis khan", "text": "Genghis Khan (成吉思汗)","alias":"genghis"},
     { "value": "genghis khan", "text": "Genghis Khan (成吉思汗)","alias":"khan"},
     { "value": "genghis khan", "text": "Genghis Khan (成吉思汗)","alias":"genghis khan"}

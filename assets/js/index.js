@@ -1,5 +1,4 @@
 import{dataArray}from './data.js';
-// import { dataArray } from './newData.js';
 
 const groups = [
 	{ label: 'Team1Picks：', prefix: 't1h', id: "Label1" },
