@@ -388,11 +388,13 @@ export const dataArray = [
     { "value": "ziya", "text": "Ziya (姜子牙)","alias":"jiangziya"},
     { "value": "ziya", "text": "Ziya (姜子牙)","alias":"jzy"},
     // Honor of Kings Global
+    { "value": "ata", "text": "Ata (阿塔)","alias":"ata"},
     { "value": "butterfly", "text": "Butterfly (刀锋宝贝)","alias":"butterfly"},
     { "value": "butterfly", "text": "Butterfly (刀锋宝贝)","alias":"daofeng baobei"},
     { "value": "butterfly", "text": "Butterfly (刀锋宝贝)","alias":"daofeng"},
+    { "value": "fatih", "text": "Fatih (法提赫)","alias":"fatih"},
     { "value": "luara", "text": "Luara (卢雅娜)","alias":"luara"},
-    { "value": "ata", "text": "Ata (阿塔)","alias":"ata"},
+
     // Arena of Valor
 
     // Removed Heroes

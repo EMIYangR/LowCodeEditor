@@ -1,6 +1,6 @@
 # 适用于Liquipedia HoK Wiki的BP低代码编辑器
 
-本Demo实现了***[Liquipedia](https://liquipedia.net/honorofkings/)***的*Ban&Picks*格式化输出，降低了由于输出错误导致的增加检查成本，并提升了一定的编写效率。
+本Demo实现了 ***[Liquipedia](https://liquipedia.net/honorofkings/)*** 的 *Ban&Picks* 格式化输出，降低了由于输出错误导致的增加检查成本，并提升了一定的编写效率。
 
 #### 页面效果
 
